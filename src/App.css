@@ -59,8 +59,8 @@
 }
 
 .about-me {
-  text-align: right;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
   height: 50dvh;
   display: flex;
   flex-direction: column;
