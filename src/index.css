@@ -19,6 +19,7 @@ html {
 body {
   background-image: url("./assets/moody.avif");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
