@@ -44,6 +44,16 @@ function App() {
 
   return (
     <>
+    <header className="portfolio-header">
+      <nav className="nav">
+        <ul className="nav-list">
+          <li className="nav-item">Home</li>
+          <li className="nav-item">Projects</li>
+          <li className="nav-item">About</li>
+          <li className="nav-item">Contact</li>
+        </ul>
+      </nav>
+    </header>
     <section className="portfolio-section"> 
       <div className="container">
         <div className="intro">
@@ -89,8 +99,15 @@ function App() {
       </div>
     </section>
     <section className="portfolio-section">
-      <img src="./assets/css-3.svg" alt="hero image" />
-      {/* project 4 */}
+      {/* 
+      // picture of project
+      // Title of project
+      // 
+      */}
+      <div className="container">
+        <h2>Projects</h2>
+
+      </div>
       {/* project 5 */}
       {/* project 6 */}
     </section>
