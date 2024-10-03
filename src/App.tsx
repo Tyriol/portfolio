@@ -61,9 +61,9 @@ function App() {
           <h1>I'm Ryan</h1>
           <p className="self-title">Junior Fullstack Software Engineer</p>
           <div className="contacts-list">
-            <button className="contacts">Email</button>
-            <button className="contacts">LinkedIn</button>
-            <button className="contacts">GitHub</button>
+            <a className="contacts" href="mailto:ryanshaunsmith@gmail.com" target="_blank"><button>Email</button></a>
+            <a className="contacts"href="https://www.linkedin.com/in/ryanshaunsmith/" target="_blank"><button>LinkedIn</button></a>
+            <a className="contacts" href="https://github.com/Tyriol" target="_blank"><button>GitHub</button></a>
             </div>
         </div>
         <img className="profile-img" src="../cartoon-stylised-profile-pic.webp" alt="profile picture"/>
@@ -106,7 +106,28 @@ function App() {
       */}
       <div className="container">
         <h2>Projects</h2>
-
+        <div className="projects-container">
+          <div className="project">
+            <img src="../project1.png" alt="project1"/>
+            <h3>Project 1</h3>
+            <p>Project 1 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+          </div>
+          <div className="project">
+            <img src="../project2.png" alt="project2"/>
+            <h3>Project 2</h3>
+            <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+          </div>
+          <div className="project">
+            <img src="../project3.png" alt="project3"/>
+            <h3>Project 3</h3>
+            <p>Project 3 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+          </div>
+          <div className="project">
+            <img src="../project4.png" alt="project4"/>
+            <h3>Project 4</h3>
+            <p>Project 4 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+          </div>
+        </div>
       </div>
       {/* project 5 */}
       {/* project 6 */}
