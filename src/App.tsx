@@ -107,30 +107,18 @@ function App() {
       <div className="container">
         <h2>Projects</h2>
         <div className="projects-container">
-          <div className="project">
-            <img src="../project1.png" alt="project1"/>
-            <h3>Project 1</h3>
+          <div className="project-card">
+            <img className="project-img" src="src/assets/metis.png" alt="project1"/>
+            <h3>METIS: Study Buddy</h3>
             <p>Project 1 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
-          <div className="project">
+          <div className="project-card">
             <img src="../project2.png" alt="project2"/>
             <h3>Project 2</h3>
             <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
-          <div className="project">
-            <img src="../project3.png" alt="project3"/>
-            <h3>Project 3</h3>
-            <p>Project 3 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
-          </div>
-          <div className="project">
-            <img src="../project4.png" alt="project4"/>
-            <h3>Project 4</h3>
-            <p>Project 4 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
-          </div>
         </div>
       </div>
-      {/* project 5 */}
-      {/* project 6 */}
     </section>
     </>
   )
