@@ -66,7 +66,7 @@ function App() {
             <a className="contacts" href="https://github.com/Tyriol" target="_blank"><button>GitHub</button></a>
             </div>
         </div>
-        <img className="profile-img" src="src/assets/rss1.jpg" alt="profile picture"/>
+        <img className="profile-img" src="../rss1.jpg" alt="profile picture"/>
       </div>
     </section>
     <section className="portfolio-section">
@@ -74,8 +74,10 @@ function App() {
       <div className="container">
         <img className="profile-img" src="../Ryansquareheadshot.jpg" alt="profile picture"/>
         <div className="about-me">
-          <p>Hello! Over the past four months I've thrown my everything in to following my heart and passion.</p>
-          <p>I've been learning the fundamentals of Software Development and really honing the skill of learning how to learn.</p>
+          <h3>I'm Ryan | Developer, Learner, Coach</h3>
+          <p>Recently I decided my life needed a kick up the butt so I've thrown my everything in to following my heart and passion.</p>
+          <p>Eager for a new challenge I've been learning the fundamentals of Software Development and really honing the skill of learning how to learn.</p>
+          <p>I'm hungry to make the most of this and continue to push myself and grow.</p>
         </div>
       </div>
     </section>
@@ -108,12 +110,12 @@ function App() {
         <h2>Projects</h2>
         <div className="projects-container">
           <div className="project-card">
-            <img className="project-img" src="src/assets/metis.png" alt="metis logo"/>
+            <img className="project-img" src="../metis.png" alt="metis logo"/>
             <h3>METIS: Study Buddy</h3>
             <p>Project 1 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
           <div className="project-card">
-            <img className="project-img" src="src/assets/learning-audit.png" alt="learning-audit"/>
+            <img className="project-img" src="../learning-audit.png" alt="learning-audit"/>
             <h3>The Learning Audit</h3>
             <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
