@@ -66,7 +66,7 @@ function App() {
             <a className="contacts" href="https://github.com/Tyriol" target="_blank"><button>GitHub</button></a>
             </div>
         </div>
-        <img className="profile-img" src="../cartoon-stylised-profile-pic.webp" alt="profile picture"/>
+        <img className="profile-img" src="src/assets/rss1.jpg" alt="profile picture"/>
       </div>
     </section>
     <section className="portfolio-section">
@@ -108,13 +108,13 @@ function App() {
         <h2>Projects</h2>
         <div className="projects-container">
           <div className="project-card">
-            <img className="project-img" src="src/assets/metis.png" alt="project1"/>
+            <img className="project-img" src="src/assets/metis.png" alt="metis logo"/>
             <h3>METIS: Study Buddy</h3>
             <p>Project 1 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
           <div className="project-card">
-            <img src="../project2.png" alt="project2"/>
-            <h3>Project 2</h3>
+            <img className="project-img" src="src/assets/learning-audit.png" alt="learning-audit"/>
+            <h3>The Learning Audit</h3>
             <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
         </div>
