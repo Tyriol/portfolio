@@ -47,14 +47,14 @@ function App() {
     <header className="portfolio-header">
       <nav className="nav">
         <ul className="nav-list">
-          <li className="nav-item">Home</li>
-          <li className="nav-item">Projects</li>
-          <li className="nav-item">About</li>
-          <li className="nav-item">Contact</li>
+          <li className="nav-item"><a href='#home'>Home</a></li>
+          <li className="nav-item"><a href='#about-me'>About</a></li>
+          <li className="nav-item"><a href='#tech'>Tech Stack</a></li>
+          <li className="nav-item"><a href='#projects'>Projects</a></li>
         </ul>
       </nav>
     </header>
-    <section className="portfolio-section"> 
+    <section className="portfolio-section" id='home'> 
       <div className="container">
         <div className="intro">
           <h2>Hey,</h2>
@@ -69,8 +69,7 @@ function App() {
         <img className="profile-img" src="../rss1.jpg" alt="profile picture"/>
       </div>
     </section>
-    <section className="portfolio-section">
-      {/* more about me and my journey */}
+    <section className="portfolio-section" id='about-me'>
       <div className="container">
         <img className="profile-img" src="../Ryansquareheadshot.jpg" alt="profile picture"/>
         <div className="about-me">
@@ -81,8 +80,7 @@ function App() {
         </div>
       </div>
     </section>
-    <section className="portfolio-section">
-      {/* Tech Stack */}
+    <section className="portfolio-section" id='tech'>
       <div className="container">
         <h2>The tech stack I've been working with</h2>
         <div className="tech">
@@ -100,12 +98,7 @@ function App() {
         </div>
       </div>
     </section>
-    <section className="portfolio-section">
-      {/* 
-      // picture of project
-      // Title of project
-      // 
-      */}
+    <section className="portfolio-section" id='projects'>
       <div className="container">
         <h2>Projects</h2>
         <div className="projects-container">
