@@ -99,7 +99,7 @@ function App() {
       </div>
     </section>
     <section className="portfolio-section" id='projects'>
-      <div className="container">
+      <div className="projects-wrapper">
         <h2>Projects</h2>
         <div className="projects-container">
           <div className="project-card">
@@ -111,6 +111,11 @@ function App() {
             <img className="project-img" src="../learning-audit.png" alt="learning-audit"/>
             <h3>The Learning Audit</h3>
             <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+          </div>
+          <div className="project-card">
+            <img className="project-img" src="../quiz.png" alt="learning-audit"/>
+            <h3>Dog Behaviour App</h3>
+            <p>Project 3 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
           </div>
         </div>
       </div>
