@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 #root {
   max-width: 100dvh;
   margin: 0 auto;
   text-align: center;
+  font-family: "Mulish", sans-serif;
 }
 
 .portfolio-header {
@@ -25,6 +28,16 @@
   gap: 4rem;
   font-size: 4rem;
   padding-right: 4rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color:cadetblue;
 }
 
 .portfolio-section {
