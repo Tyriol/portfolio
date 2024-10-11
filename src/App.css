@@ -144,6 +144,7 @@ svg {
   height: 100%;
   display: flex;
   justify-content: center;
+  gap: 2rem;
 } 
 
 .project-card {
@@ -152,11 +153,11 @@ svg {
   justify-content: center;
   max-width: auto;
   width: 50%;
-  gap: 1rem;
+  gap: 3rem;
   height: 100%;
-  padding: 1rem;
+  padding: 3rem 1rem;
   border-radius: 1rem;
-  /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); */
+  background-color: hsl(300, 24%, 80%, 0.75);
 }
 
 .project-img {
