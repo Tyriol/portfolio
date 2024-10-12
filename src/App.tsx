@@ -105,17 +105,17 @@ function App() {
           <div className="project-card">
             <img className="project-img" src="../metis.png" alt="metis logo"/>
             <h3>METIS: Study Buddy</h3>
-            <p>Project 1 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+            <p>Our School of Code final project. From conception to delivery in 4 days leveraging new found knowledge, collaboration and grit.</p>
           </div>
           <div className="project-card">
             <img className="project-img" src="../learning-audit.png" alt="learning-audit"/>
             <h3>The Learning Audit</h3>
-            <p>Project 2 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+            <p>A side project I've been using to apply new concepts to as I learn them, with the goal of having an app that can track your learning journey.</p>
           </div>
           <div className="project-card">
             <img className="project-img" src="../quiz.png" alt="learning-audit"/>
-            <h3>Dog Behaviour App</h3>
-            <p>Project 3 is a project that I have been working on for the past 4 weeks. It is a fullstack application that allows users to...</p>
+            <h3>Quiz Academy</h3>
+            <p>Built early on in using vanilla JavaScript. This gave me my first proper taste of how interesting and challenging coding can be.</p>
           </div>
         </div>
       </div>
