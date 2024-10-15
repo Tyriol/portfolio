@@ -8,39 +8,6 @@
   color: blanchedalmond;
 }
 
-.portfolio-header {
-  height: 7dvh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.nav {
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  gap: 4rem;
-  font-size: 4rem;
-  padding-right: 4rem;
-}
-
-.nav-item a {
-  text-decoration: none;
-  color: darkgrey;
-}
-
-.nav-item a:hover {
-  text-decoration: underline;
-  color:cadetblue;
-}
-
 .portfolio-section {
   height:100dvh;
   scroll-snap-align: start;
@@ -65,6 +32,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.intro p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .self-title {
@@ -200,33 +173,67 @@ svg {
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     height: auto;
     gap: 1rem;
+    margin: 0 auto;
+  }
+
+  .profile-img {
+    /* display: none; */
+    width: 50%;
   }
 
   .intro {
-    text-align: left;
+    text-align: center;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .contacts-list {
+    justify-content: center;
   }
 
   .about-me {
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .tech-list {
-    justify-content: center;
-    transform: scale(0.5);
+    transform: scale(0.8);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    list-style: none;
   }
 
   .tech-item {
-    width: 50%;
+    width: 100%;
   }
 
   .projects-container {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .project-card {
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-img {
+    width: 30%;
+    height: auto;
+    aspect-ratio: 3/4;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+  .project-card p {
+    display: none;
   }
 }

@@ -1,3 +1,4 @@
+import Header from './components/Header/Header';
 import './App.css'
 
 const techStack = [
@@ -44,20 +45,11 @@ function App() {
 
   return (
     <>
-    <header className="portfolio-header">
-      <nav className="nav">
-        <ul className="nav-list">
-          <li className="nav-item"><a href='#home'>Home</a></li>
-          <li className="nav-item"><a href='#about-me'>About</a></li>
-          <li className="nav-item"><a href='#tech'>Tech Stack</a></li>
-          <li className="nav-item"><a href='#projects'>Projects</a></li>
-        </ul>
-      </nav>
-    </header>
+    <Header />
     <section className="portfolio-section" id='home'> 
       <div className="container">
         <div className="intro">
-          <h2>Hey,</h2>
+          <p>Hey,</p>
           <h1>I'm Ryan</h1>
           <p className="self-title">Junior Fullstack Software Engineer</p>
           <div className="contacts-list">
@@ -73,7 +65,7 @@ function App() {
       <div className="container">
         <img className="profile-img" src="../Ryansquareheadshot.jpg" alt="profile picture"/>
         <div className="about-me">
-          <h3>I'm Ryan | Developer, Learner, Coach</h3>
+          <h2>I'm Ryan | Developer, Learner, Coach</h2>
           <p>Recently I decided my life needed a kick up the butt so I've thrown my everything in to following my heart and passion.</p>
           <p>Eager for a new challenge I've been learning the fundamentals of Software Development and really honing the skill of learning how to learn.</p>
           <p>I'm hungry to make the most of this and continue to push myself and grow.</p>
