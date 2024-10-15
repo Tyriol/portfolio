@@ -5,6 +5,7 @@
   margin: 0 auto;
   text-align: center;
   font-family: "Mulish", sans-serif;
+  color: blanchedalmond;
 }
 
 .portfolio-header {
@@ -194,4 +195,38 @@ svg {
   background-color: lightgray;
   padding: 0.5rem;
   border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .intro {
+    text-align: left;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+
+  .tech-list {
+    justify-content: center;
+    transform: scale(0.5);
+  }
+
+  .tech-item {
+    width: 50%;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+  }
 }
