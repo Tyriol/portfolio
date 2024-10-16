@@ -68,13 +68,14 @@ button {
   font-size: 1.5rem;
   font-weight: 400;
   border-radius: 0.5rem;
-  border: none;
-  background-color: antiquewhite;
-  color: black;
+  border: 1px solid antiquewhite;
+  background-color: transparent;
+  color: antiquewhite;
 }
 
 button:hover {
   background-color: rgb(187, 165, 165);
+  color: navy;
 }
 
 .profile-img {
@@ -141,7 +142,7 @@ svg {
   background-color: hsl(300, 24%, 80%, 0.75);
   color: black;
   opacity: 0.5;
-  transition: transform 1s ease;
+  transition: all 1s ease;
 }
 
 .project-card:hover {
@@ -168,6 +169,23 @@ svg {
   background-color: lightgray;
   padding: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.project-links button {
+  width: 30%;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: transparent;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -235,5 +253,9 @@ svg {
 
   .project-card p {
     display: none;
+  }
+
+  .project-links {
+    flex-direction: column;
   }
 }

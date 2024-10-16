@@ -98,16 +98,28 @@ function App() {
             <img className="project-img" src="../metis.png" alt="metis logo"/>
             <h3>METIS: Study Buddy</h3>
             <p>Our School of Code final project. From conception to delivery in 4 days leveraging new found knowledge, collaboration and grit.</p>
+            <div className="project-links">
+              <a href="https://github.com/Tyriol/metis-study-buddy" target='_blank'><button>Github</button></a>
+              <a href="https://metis.saffagonerogue.me" target='_blank'><button>Website</button></a>
+            </div>
           </div>
           <div className="project-card">
             <img className="project-img" src="../learning-audit.png" alt="learning-audit"/>
             <h3>The Learning Audit</h3>
             <p>A side project I've been using to apply new concepts to as I learn them, with the goal of having an app that can track your learning journey.</p>
+            <div className="project-links">
+              <a href="https://github.com/Tyriol/learning-audit" target='_blank'><button>Github</button></a>
+              <a href="https://learning-audit.saffagonerogue.me" target='_blank'><button>Website TBC</button></a>
+            </div>
           </div>
           <div className="project-card">
             <img className="project-img" src="../quiz.png" alt="learning-audit"/>
             <h3>Quiz Academy</h3>
             <p>Built early on in using vanilla JavaScript. This gave me my first proper taste of how interesting and challenging coding can be.</p>
+            <div className="project-links">
+              <a href="https://github.com/Tyriol/quizAcademy" target='_blank'><button>Github</button></a>
+              <a href="https://quiz.saffagonerogue.me" target='_blank'><button>Website</button></a>
+            </div>
           </div>
         </div>
       </div>
