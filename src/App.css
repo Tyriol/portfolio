@@ -239,16 +239,29 @@ svg {
     width: 75%;
     margin: 0 auto;
     height: auto;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-areas: 
+      "image title title"
+      "image title title"
+      "image links links";
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
   }
 
   .project-img {
-    width: 30%;
+    grid-area: image;
+    width: 100%;
     height: auto;
     aspect-ratio: 3/4;
     border-radius: 1rem;
     object-fit: cover;
+  }
+
+  .project-card h3 {
+    grid-area: title;
   }
 
   .project-card p {
@@ -256,6 +269,7 @@ svg {
   }
 
   .project-links {
-    flex-direction: column;
+    grid-area: links;
+    text-align: start;
   }
 }
