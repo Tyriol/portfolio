@@ -109,7 +109,7 @@ function App() {
             <p>A side project I've been using to apply new concepts to as I learn them, with the goal of having an app that can track your learning journey.</p>
             <div className="project-links">
               <a href="https://github.com/Tyriol/learning-audit" target='_blank'><button>Github</button></a>
-              <a href="https://learning-audit.saffagonerogue.me" target='_blank'><button>Website TBC</button></a>
+              <a href="https://learning-audit.saffagonerogue.me" target='_blank'><button>Website</button></a>
             </div>
           </div>
           <div className="project-card">
