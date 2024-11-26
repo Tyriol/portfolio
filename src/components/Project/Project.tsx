@@ -1,15 +1,8 @@
 import "./Project.css";
+import { ProjectType } from "../../assets/types/types";
 
-type ProjectProps = {
-  title: string;
-  description: string;
-  image: string;
-  imageAltText: string;
-  githubLink: string;
-  websiteLink: string;
-}
 
-export default function Project({title, description, image, imageAltText, githubLink, websiteLink }: ProjectProps) {
+export default function Project({title, description, image, imageAltText, githubLink, websiteLink }: ProjectType) {
     return (
         <div className="project-card">
             <img className="project-img" src={image} alt={imageAltText}/>
