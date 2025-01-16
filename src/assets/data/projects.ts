@@ -24,6 +24,22 @@ const projects: ProjectType[] = [
         imageAltText: "The Quiz Academy homepage", 
         githubLink: "https://github.com/Tyriol/quizAcademy", 
         websiteLink: "https://quiz.saffagonerogue.me"
+    },
+    {
+        title: "TaskLite", 
+        description: "Obligatory todo app, built using TypeScript and the Vite React framework. Made to limit todo's in progress and I learnt lots about using TS with React", 
+        image: "../tasklite.png", 
+        imageAltText: "The TaskLite App", 
+        githubLink: "https://github.com/Tyriol/taskLite", 
+        websiteLink: "https://todo.saffagonerogue.me/"
+    },
+    {
+        title: "Blackjack", 
+        description: "A tech test, built using a combination of vanilla JavaScript and React using Vite. I learnt a lot about testing React components using Vitest", 
+        image: "../blackjack.png", 
+        imageAltText: "The TaskLite App", 
+        githubLink: "https://github.com/Tyriol/blackjack-bbc-segs-tech-test", 
+        websiteLink: "https://blackjack.saffagonerogue.me/"
     }
 ]
 
