@@ -1,3 +1,6 @@
+
+import Slider from "react-slick";
+
 //components
 import Header from './components/Header/Header';
 import Project from './components/Project/Project';
@@ -8,8 +11,49 @@ import projects from './assets/data/projects';
 
 //styles
 import './App.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
+
+  const settings = {
+    dots: true,
+    // className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
 
   return (
     <>
@@ -61,20 +105,20 @@ function App() {
     <section className="portfolio-section" id='projects'>
       <div className="projects-wrapper">
         <h2>Projects</h2>
-        <div className="projects-container">
-          {projects.map((project, i) => {
-            return (
-              <Project
-                key={i + "1000"} 
-                title={project.title} 
-                description={project.description}
-                image={project.image} 
-                imageAltText={project.imageAltText} 
-                githubLink={project.githubLink} 
-                websiteLink={project.websiteLink} />
-                )}
-          )} 
-        </div>
+          <Slider className="projects-container" {...settings}>
+            {projects.map((project, i) => {
+              return (
+                <Project
+                  key={i + "1000"}
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  imageAltText={project.imageAltText}
+                  githubLink={project.githubLink}
+                  websiteLink={project.websiteLink} />
+                  )}
+            )}
+          </Slider>
       </div>
     </section>
     </>

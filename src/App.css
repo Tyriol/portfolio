@@ -126,12 +126,74 @@ svg {
   height: auto;
 }
 
-.projects-container {
+.projects-wrapper {
+  width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Update projects container */
+.projects-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Add slider specific styles */
+.slick-slider {
+  width: 100%;
+  height: 50%;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-track {
+  height: 100%;
+  display: flex;
   gap: 2rem;
-} 
+  align-items: center;
+}
+
+.slick-slide {
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide > div {
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+/* Navigation arrows */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+/* Navigation dots */
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
   .container {
