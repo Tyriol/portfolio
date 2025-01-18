@@ -115,7 +115,6 @@ button:hover {
 
 .tech-item {
   align-self: center;
-  
   width: 30%;
   height: 30%;
   font-size: 2rem;
@@ -136,13 +135,11 @@ svg {
   padding: 2rem;
 }
 
-/* Update projects container */
 .projects-container {
   width: 80%;
   margin: 0 auto;
 }
 
-/* Add slider specific styles */
 .slick-slider {
   width: 100%;
   height: 50%;
@@ -172,7 +169,6 @@ svg {
   padding: 0 1rem;
 }
 
-/* Navigation arrows */
 .slick-prev,
 .slick-next {
   z-index: 1;
@@ -186,7 +182,6 @@ svg {
   right: 25px;
 }
 
-/* Navigation dots */
 .slick-dots {
   bottom: -40px;
 }
@@ -205,7 +200,6 @@ svg {
   }
 
   .profile-img {
-    /* display: none; */
     width: 50%;
   }
 
