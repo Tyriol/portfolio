@@ -136,7 +136,7 @@ svg {
 }
 
 .projects-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -151,9 +151,6 @@ svg {
 
 .slick-track {
   height: 100%;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
 }
 
 .slick-slide {
@@ -230,9 +227,12 @@ svg {
     width: 100%;
   }
 
-  .projects-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+  .slick-slider {
+    width: 94%;
+    height: 70%;
+  }
+
+  .slick-track {
+    padding-top: 8rem;
   }
 }

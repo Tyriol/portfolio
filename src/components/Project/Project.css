@@ -57,42 +57,12 @@
     color: black;
   }
 
-  @media screen and (max-width: 768px) {
-    /* .project-card {
-        width: 75%;
-        margin: 0 auto;
-        height: auto;
-        display: grid;
-        grid-template-areas: 
-          "image title title"
-          "image title title"
-          "image links links";
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr 1fr;
-          align-items: center;
-          gap: 1rem;
-          padding: 1rem;
-      } */
+  @media screen and (max-width: 600px) {
+    .project-card {
+      height: 70%;
+    }
     
-      /* .project-img {
-        grid-area: image;
-        width: 100%;
-        height: auto;
-        aspect-ratio: 3/4;
-        border-radius: 1rem;
-        object-fit: cover;
-      }
-    
-      .project-card h3 {
-        grid-area: title;
-      } */
-    
-      .project-card p {
+    .project-card p {
         display: none;
-      }
-    
-      /* .project-links {
-        grid-area: links;
-        text-align: start;
-      } */
+    }
   }
