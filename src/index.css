@@ -17,9 +17,10 @@ html {
 }
 
 body {
-  background-image: url("./assets/moody.avif");
+  /* background-image: url("./assets/moody.avif");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: black;
 }
 
 h1 {
