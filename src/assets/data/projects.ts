@@ -3,7 +3,7 @@ import { ProjectType } from "../types/types"
 const projects: ProjectType[] = [
     {
         title: "METIS: Study Buddy",
-        description: "Our School of Code final project. From conception to delivery in 4 days leveraging new found knowledge, collaboration and grit.",
+        description: "Our School of Code final project. From conception to delivery in 4 days leveraging new found knowledge, collaboration and grit (And Next, JS and Supabase)",
         image:"../metis.png",
         imageAltText: "Metis Logo",
         githubLink: "https://github.com/Tyriol/metis-study-buddy",
@@ -19,7 +19,7 @@ const projects: ProjectType[] = [
     },
     {
         title: "Quiz Academy", 
-        description: "Built early on in using vanilla JavaScript. This gave me my first proper taste of how interesting and challenging coding can be.", 
+        description: "Built early on in using vanilla JavaScript. This gave me my first proper taste of how interesting and challenging coding can be. A useful playground for trying new things.", 
         image: "../quiz.png", 
         imageAltText: "The Quiz Academy homepage", 
         githubLink: "https://github.com/Tyriol/quizAcademy", 
