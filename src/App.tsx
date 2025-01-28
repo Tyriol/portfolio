@@ -70,9 +70,9 @@ function App() {
         <img className="profile-img" src="../Ryansquareheadshot.jpg" alt="profile picture"/>
         <div className="about-me">
           <h2>Developer, Learner, Coach</h2>
-          <p>Recently I decided my life needed a kick up the butt so I've thrown my everything in to following my heart and passion.</p>
+          <p>Recently I was presented with the opportunity to carry on doing what I was doing (and have done for quite a while), or go find something I'm truly excited about.</p>
           <p>Eager for a new challenge I've been learning the fundamentals of Software Development and really honing the skill of learning how to learn.</p>
-          <p>I'm hungry to make the most of this and continue to push myself and grow.</p>
+          <p>I'm hungry to make the most of this and continue to push myself, grow and put my everything in to following my heart and passion.</p>
         </div>
       </div>
     </section>
