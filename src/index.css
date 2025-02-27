@@ -3,7 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
   font-size: 10px;
-  /* color-scheme: light dark; */
 }
 
 * {
@@ -17,9 +16,6 @@ html {
 }
 
 body {
-  /* background-image: url("./assets/moody.avif");
-  background-attachment: fixed;
-  background-size: cover; */
   background-color: black;
 }
 
