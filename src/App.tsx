@@ -1,4 +1,4 @@
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 //components
 import Header from "./components/Header/Header";
@@ -10,41 +10,8 @@ import projectsArray from "./assets/data/projects";
 
 //styles
 import "./App.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  const settings = {
-    dots: true,
-    // className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 2000,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   const techStack = techStackArray.map((tech) => {
     return (
       <li className="tech-item" key={tech.name}>
@@ -62,8 +29,6 @@ function App() {
         description={project.description}
         image={project.image}
         imageAltText={project.imageAltText}
-        githubLink={project.githubLink}
-        websiteLink={project.websiteLink}
       />
     );
   });
@@ -125,12 +90,8 @@ function App() {
         </div>
       </section>
       <section className="portfolio-section" id="projects">
-        <div className="projects-wrapper">
-          <h2>Projects</h2>
-          <Slider className="projects-container" {...settings}>
-            {projects}
-          </Slider>
-        </div>
+        <h2>Projects</h2>
+        <div className="projects-wrapper">{projects}</div>
       </section>
     </>
   );
