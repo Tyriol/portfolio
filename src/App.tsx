@@ -1,5 +1,3 @@
-// import Slider from "react-slick";
-
 //components
 import Header from "./components/Header/Header";
 import Project from "./components/Project/Project";
