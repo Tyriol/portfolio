@@ -1,8 +1,9 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
+  height: 100%;
   border-radius: 1rem;
   background-color: blanchedalmond;
   color: black;
@@ -29,6 +30,7 @@
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .project-card h3 {
@@ -65,7 +67,11 @@
 
 @media screen and (max-width: 600px) {
   .project-card {
-    height: 70%;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    opacity: 1;
+    transition: none;
   }
 
   .project-card p {

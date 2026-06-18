@@ -88,8 +88,10 @@ function App() {
         </div>
       </section>
       <section className="portfolio-section" id="projects">
-        <h2>Projects</h2>
-        <div className="projects-wrapper">{projects}</div>
+        <div className="container">
+          <h2>Projects</h2>
+          <div className="projects-wrapper">{projects}</div>
+        </div>
       </section>
     </>
   );
