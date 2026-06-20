@@ -127,10 +127,12 @@ svg {
 
 .projects-wrapper {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  width: 20dvw;
   gap: 2rem;
-  height: fit-content;
-  overflow-y: scroll;
+  height: 400px;
+  overflow-x: scroll;
+  /* scrollbar-width: none; */
 }
 
 .projects-container {
@@ -181,8 +183,9 @@ svg {
   .projects-wrapper {
     padding-top: 5rem;
     width: 65dvw;
-    flex-direction: row;
-    overflow-x: scroll;
+    height: 50dvh;
+    /* flex-direction: row; */
+    /* overflow-x: scroll; */
   }
 
   .slick-slider {
