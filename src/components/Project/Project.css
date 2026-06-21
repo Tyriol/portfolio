@@ -24,6 +24,20 @@
   gap: 1rem;
 }
 
+.project-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-tag {
+  background-color: #303030;
+  color: blanchedalmond;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+}
+
 .project-img {
   width: 100%;
   aspect-ratio: 4/3;
@@ -32,12 +46,12 @@
 }
 
 .project-card h3 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 
 .project-card p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   background-color: lightgray;
   padding: 0.5rem;
@@ -53,7 +67,7 @@
 .project-links button {
   height: 3rem;
   padding: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 0.5rem;
   border: none;
