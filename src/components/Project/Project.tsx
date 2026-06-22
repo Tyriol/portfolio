@@ -1,7 +1,7 @@
 import "./Project.css";
 import { ProjectType } from "../../assets/types/types";
 
-export default function Project({ title, description, image, imageAltText }: ProjectType) {
+export default function Project({ title, image, imageAltText }: ProjectType) {
   return (
     <div className="project-card">
       <div className="project-hero">
@@ -14,7 +14,6 @@ export default function Project({ title, description, image, imageAltText }: Pro
           <span className="project-tag">CSS</span>
         </div>
         <h3>{title}</h3>
-        <p>{description}</p>
       </div>
     </div>
   );
