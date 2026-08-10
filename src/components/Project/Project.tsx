@@ -3,7 +3,7 @@ import { ProjectType } from "../../assets/types/types";
 
 export default function Project({ title, image, imageAltText }: ProjectType) {
   return (
-    <div className="project-card">
+    <div className="project-card carousel__slide">
       <div className="project-hero">
         <img className="project-img" src={image} alt={imageAltText} />
       </div>

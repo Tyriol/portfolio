@@ -1,4 +1,4 @@
-//components
+// components
 import Header from "./components/Header/Header";
 import Project from "./components/Project/Project";
 
@@ -90,7 +90,9 @@ function App() {
       <section className="portfolio-section" id="projects">
         <div className="container">
           <h2>Projects</h2>
-          <div className="projects-wrapper">{projects}</div>
+          <div className="projects-wrapper carousel--scroll-buttons carousel--scroll-markers">
+            {projects}
+          </div>
         </div>
       </section>
     </>
